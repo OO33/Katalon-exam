@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.homeUrl + '?controller=addresses'])
 
-deleteButton = WebUI.modifyObjectProperty(findTestObject('Object Repository/Page_Addresses - My Store/span_Delete'),
-	'xpath', 'equals', ('//a[@title=\'Delete\' and ../../li[1]/h3/text()=\'' + alias) + '\']', true)
+deleteButton = WebUI.modifyObjectProperty(findTestObject('Object Repository/Page_Addresses - My Store/span_Delete'), 'xpath', 
+    'equals', ('//a[@title=\'Delete\' and ../../li[1]/h3/text()=\'' + alias) + '\']', true)
 
 if (WebUI.waitForElementPresent(deleteButton, 1)) {
-	return deleteButton
+    return deleteButton
 } else {
-	return null
 }
+

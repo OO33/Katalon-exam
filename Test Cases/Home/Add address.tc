@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>46ae6bc8-5906-4545-aa71-8cf9d2aac1bd</testCaseGuid>
+   <variable>
+      <defaultValue>'21 voie R'</defaultValue>
+      <description></description>
+      <id>2a800366-8fbc-42ac-89f1-8b47ce3d5bf7</id>
+      <masked>false</masked>
+      <name>adress</name>
+   </variable>
+   <variable>
+      <defaultValue>'new york'</defaultValue>
+      <description></description>
+      <id>3d58b564-d215-4495-b521-ebe73044c2ce</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'new york'</defaultValue>
+      <description></description>
+      <id>2f746cf6-5855-4e3d-b6a7-5b2402488ca9</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'33600'</defaultValue>
+      <description></description>
+      <id>a5cfde95-d8d7-4f6e-9ff2-3d56e488b095</id>
+      <masked>false</masked>
+      <name>postcode</name>
+   </variable>
+   <variable>
+      <defaultValue>'2121234567'</defaultValue>
+      <description></description>
+      <id>7f682691-5671-44cc-80e2-188c53f26f84</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'12548769'</defaultValue>
+      <description></description>
+      <id>585fafe6-fccb-4051-8405-caf51d2f30d1</id>
+      <masked>false</masked>
+      <name>phone_mobile</name>
+   </variable>
+   <variable>
+      <defaultValue>'homeAddr'</defaultValue>
+      <description></description>
+      <id>0317ed37-6744-4311-a3f3-d2e6ea6f7f68</id>
+      <masked>false</masked>
+      <name>alias</name>
+   </variable>
 </TestCaseEntity>

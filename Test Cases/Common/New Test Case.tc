@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f564db2b-0762-41c4-9aeb-a8948a39d978</testCaseGuid>
+   <variable>
+      <defaultValue>'oo@yahoo.fr'</defaultValue>
+      <description></description>
+      <id>2b6b5018-5d09-44ef-86e6-6a0bc4ac201c</id>
+      <masked>false</masked>
+      <name>user</name>
+   </variable>
+   <variable>
+      <defaultValue>'omar33'</defaultValue>
+      <description></description>
+      <id>497daa13-6fa3-493a-9d2f-4955a4285d69</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

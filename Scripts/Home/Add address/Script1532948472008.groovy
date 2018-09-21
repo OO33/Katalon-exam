@@ -21,3 +21,31 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Common/GoToUrl'), [('url') : GlobalVariable.homeUrl + '?controller=addresses'])
 
+WebUI.click(findTestObject('Page_Addresses - My Store/span_Add a new address'))
+
+WebUI.navigateToUrl('http://automationpractice.com/index.php?controller=address')
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__address1'), adress)
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__city'), city)
+
+WebUI.selectOptionByValue(findTestObject('Page_Address - My Store/select_-AlabamaAlaskaArizonaAr'), '32', true)
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__postcode'), postcode)
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__phone'), phone)
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__phone_mobile'), phone_mobile)
+
+WebUI.setText(findTestObject('Page_Address - My Store/input__alias'), alias)
+
+WebUI.click(findTestObject('Page_Address - My Store/span_Save'))
+
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Address - My Store/div_There is 1 errorThe alias'), 
+    0)) 
+{
+    WebUI.setText(findTestObject('Page_Address - My Store/input__alias'), "nouvelleAdress")
+
+    WebUI.click(findTestObject('Page_Address - My Store/span_Save'))
+}
+
