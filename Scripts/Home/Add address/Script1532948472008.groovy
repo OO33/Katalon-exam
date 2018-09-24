@@ -41,11 +41,11 @@ WebUI.setText(findTestObject('Page_Address - My Store/input__alias'), alias)
 
 WebUI.click(findTestObject('Page_Address - My Store/span_Save'))
 
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Address - My Store/div_There is 1 errorThe alias'), 
+/*if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Address - My Store/div_There is 1 errorThe alias'), 
     0)) 
 {
     WebUI.setText(findTestObject('Page_Address - My Store/input__alias'), "nouvelleAdress")
 
     WebUI.click(findTestObject('Page_Address - My Store/span_Save'))
-}
+}*/
 

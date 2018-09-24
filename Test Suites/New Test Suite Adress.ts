@@ -4,7 +4,7 @@
    <name>New Test Suite Adress</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-24T15:47:41</lastRun>
+   <lastRun>2018-09-24T16:13:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
