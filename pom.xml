@@ -26,7 +26,7 @@
             <argument>-browserType=Chrome</argument>
             <argument>-executionProfile=default</argument>
             <argument>-retry=0</argument>
-            <argument>-testSuitePath=Test Suites\New Test Suite Adress</argument>
+            <argument>-testSuitePath=${katalon.test.suite}</argument>
           </arguments>
         </configuration>
       </plugin>
