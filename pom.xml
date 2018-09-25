@@ -23,7 +23,7 @@
           <arguments>
             <argument>-runMode=console</argument>
             <argument>-projectPath=${katalon.project.file}</argument>
-            <argument>-browserType=Chrome</argument>
+            <argument>-browserType=${browser}</argument>
             <argument>-executionProfile=default</argument>
             <argument>-retry=0</argument>
             <argument>-testSuitePath=${katalon.test.suite}</argument>

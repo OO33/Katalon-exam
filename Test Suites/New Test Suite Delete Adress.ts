@@ -4,7 +4,7 @@
    <name>New Test Suite Delete Adress</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-09-21T11:46:11</lastRun>
+   <lastRun>2018-09-25T11:19:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
